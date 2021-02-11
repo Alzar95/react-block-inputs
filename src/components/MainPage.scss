@@ -1,0 +1,79 @@
+.main-page {
+  &-inputs {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid #818181;
+    background-color: white;
+
+    input[type=text] {
+      border: 1px solid #818181;
+      border-radius: 5px;
+      padding: 5px;
+    }
+
+    select {
+      border: 1px solid #818181;
+      border-radius: 5px;
+      padding: 5px;
+    }
+
+    &-select {
+      position: relative;
+
+      &-input {
+        position: relative;
+
+        &-avatar {
+          input[type=text]{
+            padding-left: 28px;
+          }
+        }
+
+        &-icon {
+          position: absolute;
+          right: 5px;
+        }
+      }
+
+      &-menu {
+        position: absolute;
+        width: 100%;
+        border: 1px solid #818181;
+        background-color: white;
+
+        &-item {
+          display: flex;
+          padding: 5px 10px;
+
+          &-text {
+            padding-left: 10px;
+          }
+
+          &:hover {
+            background-color: gainsboro;
+          }
+        }
+      }
+    }
+
+    &-btn {
+      &-reset, &-filter {
+        padding: 5px 10px;
+        border-radius: 5px;
+      }
+
+      &-reset {
+        border: 1px solid darkslategray;
+        color: darkslategray;
+        background-color: white;
+      }
+
+      &-filter {
+        border: none;
+        color: white;
+        background-color: darkslategray;
+      }
+    }
+  }
+}
