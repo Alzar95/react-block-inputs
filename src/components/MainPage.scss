@@ -7,54 +7,10 @@
     background-color: white;
 
     input[type=text] {
+      width: max-content;
       border: 1px solid #818181;
       border-radius: 5px;
       padding: 5px;
-    }
-
-    select {
-      border: 1px solid #818181;
-      border-radius: 5px;
-      padding: 5px;
-    }
-
-    &-select {
-      position: relative;
-
-      &-input {
-        position: relative;
-
-        &-avatar {
-          input[type=text]{
-            padding-left: 28px;
-          }
-        }
-
-        &-icon {
-          position: absolute;
-          right: 5px;
-        }
-      }
-
-      &-menu {
-        position: absolute;
-        width: 100%;
-        border: 1px solid #818181;
-        background-color: white;
-
-        &-item {
-          display: flex;
-          padding: 5px 10px;
-
-          &-text {
-            padding-left: 10px;
-          }
-
-          &:hover {
-            background-color: gainsboro;
-          }
-        }
-      }
     }
 
     &-btn {
@@ -64,6 +20,7 @@
       }
 
       &-reset {
+        margin-right: 20px;
         border: 1px solid darkslategray;
         color: darkslategray;
         background-color: white;

@@ -1,0 +1,13 @@
+$tablets-and-mobile: 1200px;
+
+@media screen and (max-width: $tablets-and-mobile){
+  .main-page-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    input[type=text] {
+      margin-bottom: 20px;
+    }
+  }
+}

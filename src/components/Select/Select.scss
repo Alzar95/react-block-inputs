@@ -1,0 +1,39 @@
+.select {
+  position: relative;
+
+  &-input {
+    position: relative;
+
+    &-avatar {
+      input[type=text] {
+        padding-left: 28px;
+      }
+    }
+
+    &-icon {
+      position: absolute;
+      right: 5px;
+    }
+  }
+
+  &-menu {
+    position: absolute;
+    width: 100%;
+    border: 1px solid #818181;
+    background-color: white;
+    z-index: 1;
+
+    &-item {
+      display: flex;
+      padding: 5px 10px;
+
+      &-text {
+        padding-left: 10px;
+      }
+
+      &:hover {
+        background-color: gainsboro;
+      }
+    }
+  }
+}
